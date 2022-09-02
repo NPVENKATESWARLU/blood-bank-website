@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood bank</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/all.min.js"></script>
+    <script src="./js/all.js"></script>
+    <link rel="shortcut icon" href="./images/favicon_io/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container-fluid w-100 h-100 p-0">
+        <header class="w-100 px-5 d-flex flex-row justify-content-between align-items-center">
+            <div class="logo">
+                <img src="./images/blood-bank-2.png" alt="blood-bank-logo">
+            </div>
+            <nav class="h-100">
+                <ul class="w-100 h-100 d-flex flex-row justify-content-between align-items-center">
+                    <li class="px-3"><a href="#signup-content">Sign Up</a></li>
+                    <li class="px-3"><a href="#signin-content">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="w-100">
+            <div id="signup-content" class="w-100 h-100 d-flex flex-column justify-content-between align-items-center">
+                <h1>SIGN UP</h1>
+                <div class="d-flex">
+                    <div>
+                        <label for="text" class="form-label">First Name *</label>
+                        <input type="text" class="form-control" placeholder="Enter First Name" />
+                    </div>
+                    <div class="px-3">
+                        <label for="text" class="form-label">Last Name *</label>
+                        <input type="text" class="form-control" placeholder="Enter Last Name" />
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <label for="text" class="form-label">Email *</label>
+                        <input type="text" class="form-control" placeholder="name@example.com" />
+                    </div>
+                    <div class="px-3">
+                        <label for="text" class="form-label">Phone Number *</label>
+                        <div class="d-flex">
+                            <select>
+                                <option>+91</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="Enter phone Number" />
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <label for="text" class="form-label">Password *</label>
+                        <input type="text" class="form-control" placeholder="Enter Password" />
+                    </div>
+                    <div class="px-3">
+                        <label for="text" class="form-label">Confirm Password *</label>
+                        <input type="text" class="form-control" placeholder="Enter Confirm Password" />
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+            <div id="signin-content" class="w-100 h-100 d-flex flex-column justify-content-between align-items-center">
+                <h1>SIGN IN</h1>
+                <div>
+                    <input type="radio" name="radio" /> Employee
+                    <input type="radio" name="radio" /> Customer
+                    <div class="">
+                        <label for="Email" class="form-label">Email address</label>
+                        <div class="mt-3">
+                            <input type="text" class="form-control" placeholder="name@example.com">
+                        </div>
+                    </div>
+                    <div class="">
+                        <label for="pwd" class="form-label">Password</label>
+                        <div class="mt-3">
+                            <input type="text" class="form-control" placeholder="Enter Password" />
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-primary">Sign Up</button>
+                    </div>
+                    <div class="mt-3">
+                        <p>Forgot password?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>@copyright belongs to venkatesh</p>
+        </footer>
+    </div>
+</body>
+
+</html>
